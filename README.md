@@ -43,17 +43,10 @@ I went through several rounds of debugging sessions, added `natvis` visualizers 
 
 I picked it back up in September, and this time asked Claude Code to review my `MegaNTree` quadtree implementation and propose fixes, along with new tests to validate them (I reviewed and validated everything myself before keeping it).
 
-I also lead claude in order to validate and test an idea I got to improve parallelism in my physics engine stage, using my thread pool implementation. Here is a diff of the code of `MegaWorldPhysics::BuildTaskGraph`, the method declaring the workers to the thread pool, before and after the change.
-
-<table>
-<tr>
-<th>Before</th>
-<th>After</th>
-</tr>
-<tr>
-<td>
+I also lead claude in order to validate and test an idea I got to improve parallelism in my physics engine stage, using my thread pool implementation. Here is an example of how I build the task graph using my objects:
 
 ```cpp
+
 std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
     _Inout_ SystemContext&  Context,
     _In_    CONST UINT      WorkerCount
@@ -73,73 +66,6 @@ std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
         }, "Reset state"
     );
 
-    CONST auto InputTask = PhysicsTaskPool->CreateTask(
-        [this, &Context]() {
-            InputPhase(Context);
-        }, "Player input"
-    );
-
-    PhysicsTaskPool->SetDependency(InputTask, CameraTask, ResetTask);
-
-    CONST UINT N = std::min(WorkerCount, MAX_PHYSICS_WORKERS);
-
-    std::array<UINT, MAX_PHYSICS_WORKERS> GravityTasks = {};
-
-    for (UINT i = 0; i < N; i++)
-    {
-        CONST auto TaskName = std::format("Gravity phase[{}]", i);
-
-        GravityTasks[i] = PhysicsTaskPool->CreateTask(
-            [this, i, N, &Context]()
-            { 
-                GravitySubTask(i, N, Context);
-            },
-            TaskName
-        );
-
-        PhysicsTaskPool->SetDependency(GravityTasks[i], ResetTask);
-    }
-
-    CONST auto ProcessObjectsTask = PhysicsTaskPool->CreateTask(
-        [this, &Context]() {
-            ProcessObjects(Context);
-        }, "Process objects"
-    );
-
-    PhysicsTaskPool->SetDependency(ProcessObjectsTask, InputTask);
-
-    for (UINT i = 0; i < N; i++)
-        PhysicsTaskPool->SetDependency(ProcessObjectsTask, GravityTasks[i]);
-
-    return std::move(PhysicsTaskPool);
-}
-```
-
-</td>
-<td>
-
-```cpp
-std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
-    _Inout_ SystemContext&  Context,
-    _In_    CONST UINT      WorkerCount
-)
-{
-    auto PhysicsTaskPool = std::make_unique<MegaTaskPool>();
-
-    CONST auto CameraTask = PhysicsTaskPool->CreateTask(
-        [&Context]() {
-            Context.Camera->Update();
-        }, "Camera update"
-    );
-
-    CONST auto ResetTask = PhysicsTaskPool->CreateTask(
-        [this, &Context]() {
-            ResetStateTask(Context);
-        }, "Reset state"
-    );
-
-    // ResetStateTask reads Context.Camera (EyePosition / GetViewExtents) to build
-    // SimulationAABB, so it must not run concurrently with CameraTask
     PhysicsTaskPool->SetDependency(ResetTask, CameraTask);
 
     CONST auto InputTask = PhysicsTaskPool->CreateTask(
@@ -158,9 +84,6 @@ std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
         }, "Process objects"
     );
 
-    // Debug wireframe coloring: query the static objects currently visible once (a
-    // culling-tree query isn't meaningfully splittable), then color both visible static and
-    // dynamic objects green in parallel below, before ProcessObjects can paint any of them red.
     CONST auto QueryVisibleStaticTask = PhysicsTaskPool->CreateTask(
         [this, &Context]() {
             QueryVisibleStaticObjectsTask(Context);
@@ -169,9 +92,6 @@ std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
 
     PhysicsTaskPool->SetDependency(QueryVisibleStaticTask, ResetTask);
 
-    // One worker slice at a time, we chain: gravity -> broad-phase gather (both feeding
-    // ProcessObjectsTask) -> texture direction (which needs ProcessObjectsTask done, since
-    // velocity is only final for an object once ProcessObjects has resolved it).
     for (UINT i = 0; i < N; i++)
     {
         CONST auto GravityTaskId = PhysicsTaskPool->CreateTask(
@@ -183,62 +103,14 @@ std::unique_ptr<MegaTaskPool> MegaWorldPhysics::BuildTaskGraph(
         );
 
         PhysicsTaskPool->SetDependency(GravityTaskId, ResetTask);
-
-        // Broad-phase gather: per-object culling queries are read-only and independent of
-        // one another. This slice reads Body.Velocity for the same objects the matching
-        // gravity slice just wrote, so it only needs to wait on that one gravity task
-        // (plus input, since input can touch any object) instead of the whole gravity phase.
-        CONST auto GatherTaskId = PhysicsTaskPool->CreateTask(
-            [this, i, N, &Context]()
-            {
-                GatherSubTask(i, N, Context);
-            },
-            std::format("Broad-phase gather[{}]", i)
-        );
-
-        PhysicsTaskPool->SetDependency(GatherTaskId, InputTask, GravityTaskId);
-        PhysicsTaskPool->SetDependency(ProcessObjectsTask, GatherTaskId);
-
-        CONST auto TextureDirectionTaskId = PhysicsTaskPool->CreateTask(
-            [this, i, N, &Context]()
-            {
-                UpdateTextureDirectionSubTask(i, N, Context);
-            },
-            std::format("Update texture direction[{}]", i)
-        );
-
-        PhysicsTaskPool->SetDependency(TextureDirectionTaskId, ProcessObjectsTask);
-
-        CONST auto ResetDynamicColorTaskId = PhysicsTaskPool->CreateTask(
-            [this, i, N, &Context]()
-            {
-                ResetDynamicVisibleColorsSubTask(i, N, Context);
-            },
-            std::format("Reset dynamic visible colors[{}]", i)
-        );
-
-        PhysicsTaskPool->SetDependency(ResetDynamicColorTaskId, ResetTask);
-        PhysicsTaskPool->SetDependency(ProcessObjectsTask, ResetDynamicColorTaskId);
-
-        CONST auto ResetStaticColorTaskId = PhysicsTaskPool->CreateTask(
-            [this, i, N, &Context]()
-            {
-                ResetStaticVisibleColorsSubTask(i, N, Context);
-            },
-            std::format("Reset static visible colors[{}]", i)
-        );
-
-        PhysicsTaskPool->SetDependency(ResetStaticColorTaskId, QueryVisibleStaticTask);
-        PhysicsTaskPool->SetDependency(ProcessObjectsTask, ResetStaticColorTaskId);
+        
+        // Other parallel tasks...
     }
 
     return std::move(PhysicsTaskPool);
 }
-```
 
-</td>
-</tr>
-</table>
+```
 
 Claude code helped me a lot reviewing, and documenting my code. I plan to use it as a colleague in order to review my code, or to generate code defined by my architecture. I'll keep writing the new complex code myself, because of the main goal of this project is to learn for fun.
 
