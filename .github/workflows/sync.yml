@@ -22,7 +22,10 @@ jobs:
         run: |
           cp source_repo/README.md ./README.md
           mkdir -p Notes Assets/Images
-          rsync -a --delete source_repo/Notes/ ./Notes/
+          rsync -a --delete --delete-excluded \
+            --exclude '/Research/' \
+            --exclude '/Documentation/' \
+            source_repo/Notes/ ./Notes/
           rsync -a --delete source_repo/Assets/Images/ ./Assets/Images/
 
       - name: Commit and Push changes
