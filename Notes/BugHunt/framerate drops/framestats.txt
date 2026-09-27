@@ -1,0 +1,318 @@
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\dev\Codeberg\MegaProject\Output\Binx64\Release\MegaEngineLibWin32AppTest.exe'. Symbols loaded.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\dev\Codeberg\MegaProject\Output\Binx64\Release\WinPixEventRuntime.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\rpcrt4.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140_atomic_wait.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140_1.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\D3D12.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\D3DCompiler_47.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\dev\Codeberg\MegaProject\Output\Binx64\Release\dxcompiler.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\mfplat.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\mfreadwrite.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\XAudio2_9.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\MMDevAPI.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\avrt.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\dev\Codeberg\MegaProject\Output\Binx64\Release\dxil.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\umpdc.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\RTWorkQ.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\AudioSes.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\ResourcePolicyClient.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\Windows.Gaming.Input.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\InputHost.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.appcore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\OneCoreUAPCommonProxyStub.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DXCore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\directxdatabasehelper.dll'. Symbol loading disabled by Include/Exclude setting.
+onecoreuap\xbox\devices\api\winrt\pnpapiwrapper.cpp(385)\Windows.Gaming.Input.dll!00007FFC536687A5: (caller: 00007FFC5366D41D) ReturnHr(1) tid(180c) 8685C003 onecoreuap\xbox\devices\api\winrt\pnpapiwrapper.cpp(385)\Windows.Gaming.Input.dll!00007FFC536687A5: (caller: 00007FFC5366D41D) ReturnHr(2) tid(180c) 8685C003 onecoreuap\xbox\devices\api\winrt\pnpapiwrapper.cpp(385)\Windows.Gaming.Input.dll!00007FFC536687A5: (caller: 00007FFC5366D41D) ReturnHr(3) tid(180c) 8685C003 'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvdlistx.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvdlistx.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\version.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvdlistx.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\D3D12Core.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvldumdx.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\cryptnet.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\wldp.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\drvstore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\imagehlp.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvgpucomp64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\NvMemMapStoragex.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvwgf2umx.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\nvspcap64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 0x2b90 has exited with code 0 (0x0).
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdmi.inf_amd64_8f5ed0f2b3ce512d\nvppex.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\D3DSCache.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\userenv.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\dxilconv.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Unloaded 'C:\Windows\System32\dxilconv.dll'
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\d3d11.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\igd10iumd64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\apphelp.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\igd10um64xe.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\IntelControlLib.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\igdgmm2_64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\igdgmm64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_2bacc6b0652fd711\igc64.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\dcomp.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\Microsoft.Internal.WarpPal.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\XInput1_4.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\mfcore.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\mfsrcsnk.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\WindowsCodecs.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\CompPkgSup.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\Windows.Media.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\MP3DMOD.DLL'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\msdmo.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\Windows.ApplicationModel.dll'. Symbol loading disabled by Include/Exclude setting.
+'MegaEngineLibWin32AppTest.exe' (Win32): Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. Symbol loading disabled by Include/Exclude setting.
+The thread 0x12b4 has exited with code 0 (0x0).
+[FrameStats] 5.6 fps | frame avg 89.913 max 112.094 ms | updates/frame avg 16.67 max 20
+    SwapChainWait  calls/frame  1.50 | avg  59.592 max 112.076 ms | per frame  89.388 ms
+    FenceWait      calls/frame  0.17 | avg   0.002 max   0.002 ms | per frame   0.000 ms
+    Update         calls/frame 16.67 | avg   4.779 max 465.361 ms | per frame  79.652 ms
+      Gravity      calls/frame  3.33 | avg   0.003 max   0.026 ms | per frame   0.009 ms
+      PreUpdate    calls/frame  3.33 | avg   0.291 max   0.496 ms | per frame   0.971 ms
+      Physics      calls/frame  3.33 | avg   0.369 max   0.911 ms | per frame   1.230 ms
+      RenderTasks  calls/frame  3.33 | avg   0.029 max   0.056 ms | per frame   0.095 ms
+    Record         calls/frame  0.17 | avg  33.958 max  33.958 ms | per frame   5.660 ms
+    Present        calls/frame  0.17 | avg  13.859 max  13.859 ms | per frame   2.310 ms
+[FrameStats] 140.6 fps | frame avg 10.820 max 532.686 ms | updates/frame avg 1.55 max 20
+    SwapChainWait  calls/frame  1.00 | avg   5.148 max  12.438 ms | per frame   5.148 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.026 ms | per frame   0.001 ms
+    Update         calls/frame  1.55 | avg   0.788 max   1.163 ms | per frame   1.224 ms
+      Gravity      calls/frame  1.55 | avg   0.008 max   0.033 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.55 | avg   0.360 max   0.558 ms | per frame   0.560 ms
+      Physics      calls/frame  1.55 | avg   0.387 max   0.657 ms | per frame   0.601 ms
+      RenderTasks  calls/frame  1.55 | avg   0.031 max   0.064 ms | per frame   0.048 ms
+    Record         calls/frame  1.00 | avg   0.350 max   1.173 ms | per frame   0.350 ms
+    Present        calls/frame  1.00 | avg   0.377 max   5.230 ms | per frame   0.377 ms
+[FrameStats] 144.0 fps | frame avg 6.946 max 7.209 ms | updates/frame avg 1.39 max 2
+    SwapChainWait  calls/frame  1.00 | avg   5.142 max   5.966 ms | per frame   5.142 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.002 ms | per frame   0.001 ms
+    Update         calls/frame  1.39 | avg   0.816 max   1.160 ms | per frame   1.133 ms
+      Gravity      calls/frame  1.39 | avg   0.010 max   0.049 ms | per frame   0.013 ms
+      PreUpdate    calls/frame  1.39 | avg   0.381 max   0.633 ms | per frame   0.529 ms
+      Physics      calls/frame  1.39 | avg   0.390 max   0.645 ms | per frame   0.541 ms
+      RenderTasks  calls/frame  1.39 | avg   0.033 max   0.092 ms | per frame   0.046 ms
+    Record         calls/frame  1.00 | avg   0.330 max   0.558 ms | per frame   0.330 ms
+    Present        calls/frame  1.00 | avg   0.327 max   0.567 ms | per frame   0.327 ms
+[FrameStats] 144.1 fps | frame avg 6.946 max 7.248 ms | updates/frame avg 1.39 max 2
+    SwapChainWait  calls/frame  1.00 | avg   5.259 max   5.996 ms | per frame   5.259 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.010 ms | per frame   0.001 ms
+    Update         calls/frame  1.39 | avg   0.772 max   1.208 ms | per frame   1.070 ms
+      Gravity      calls/frame  1.39 | avg   0.008 max   0.069 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.39 | avg   0.358 max   0.594 ms | per frame   0.496 ms
+      Physics      calls/frame  1.39 | avg   0.375 max   0.597 ms | per frame   0.520 ms
+      RenderTasks  calls/frame  1.39 | avg   0.029 max   0.080 ms | per frame   0.041 ms
+    Record         calls/frame  1.00 | avg   0.291 max   0.425 ms | per frame   0.291 ms
+    Present        calls/frame  1.00 | avg   0.307 max   0.493 ms | per frame   0.307 ms
+[FrameStats] 134.9 fps | frame avg 7.400 max 14.089 ms | updates/frame avg 1.48 max 3
+    SwapChainWait  calls/frame  1.00 | avg   5.579 max  12.631 ms | per frame   5.579 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.002 ms | per frame   0.001 ms
+    Update         calls/frame  1.48 | avg   0.795 max   1.350 ms | per frame   1.179 ms
+      Gravity      calls/frame  1.48 | avg   0.008 max   0.037 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.48 | avg   0.366 max   0.633 ms | per frame   0.543 ms
+      Physics      calls/frame  1.48 | avg   0.389 max   0.830 ms | per frame   0.576 ms
+      RenderTasks  calls/frame  1.48 | avg   0.031 max   0.090 ms | per frame   0.045 ms
+    Record         calls/frame  1.00 | avg   0.305 max   0.449 ms | per frame   0.305 ms
+    Present        calls/frame  1.00 | avg   0.338 max   0.574 ms | per frame   0.338 ms
+[FrameStats] 140.3 fps | frame avg 7.141 max 14.058 ms | updates/frame avg 1.43 max 3
+    SwapChainWait  calls/frame  1.00 | avg   5.418 max  11.636 ms | per frame   5.418 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.009 ms | per frame   0.001 ms
+    Update         calls/frame  1.43 | avg   0.767 max   1.201 ms | per frame   1.093 ms
+      Gravity      calls/frame  1.43 | avg   0.008 max   0.052 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.43 | avg   0.354 max   0.521 ms | per frame   0.504 ms
+      Physics      calls/frame  1.43 | avg   0.372 max   0.612 ms | per frame   0.530 ms
+      RenderTasks  calls/frame  1.43 | avg   0.031 max   0.163 ms | per frame   0.045 ms
+    Record         calls/frame  1.00 | avg   0.294 max   0.521 ms | per frame   0.294 ms
+    Present        calls/frame  1.00 | avg   0.311 max   0.592 ms | per frame   0.311 ms
+[FrameStats] 142.8 fps | frame avg 6.994 max 13.983 ms | updates/frame avg 1.40 max 2
+    SwapChainWait  calls/frame  1.07 | avg   4.890 max  10.563 ms | per frame   5.232 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.002 ms | per frame   0.001 ms
+    Update         calls/frame  1.40 | avg   0.788 max   2.039 ms | per frame   1.102 ms
+      Gravity      calls/frame  1.40 | avg   0.009 max   0.086 ms | per frame   0.013 ms
+      PreUpdate    calls/frame  1.40 | avg   0.363 max   1.697 ms | per frame   0.507 ms
+      Physics      calls/frame  1.40 | avg   0.382 max   0.971 ms | per frame   0.534 ms
+      RenderTasks  calls/frame  1.40 | avg   0.033 max   0.116 ms | per frame   0.046 ms
+    Record         calls/frame  1.00 | avg   0.303 max   0.465 ms | per frame   0.303 ms
+    Present        calls/frame  1.00 | avg   0.320 max   0.551 ms | per frame   0.320 ms
+[FrameStats] 143.1 fps | frame avg 6.993 max 13.815 ms | updates/frame avg 1.40 max 2
+    SwapChainWait  calls/frame  1.09 | avg   4.836 max  10.958 ms | per frame   5.272 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.002 ms | per frame   0.001 ms
+    Update         calls/frame  1.40 | avg   0.762 max   1.165 ms | per frame   1.063 ms
+      Gravity      calls/frame  1.40 | avg   0.009 max   0.068 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.40 | avg   0.352 max   0.565 ms | per frame   0.492 ms
+      Physics      calls/frame  1.40 | avg   0.369 max   0.571 ms | per frame   0.515 ms
+      RenderTasks  calls/frame  1.40 | avg   0.031 max   0.085 ms | per frame   0.043 ms
+    Record         calls/frame  1.00 | avg   0.295 max   0.524 ms | per frame   0.295 ms
+    Present        calls/frame  1.00 | avg   0.307 max   0.625 ms | per frame   0.307 ms
+[FrameStats] 140.0 fps | frame avg 7.144 max 13.947 ms | updates/frame avg 1.43 max 3
+    SwapChainWait  calls/frame  1.05 | avg   5.150 max  11.623 ms | per frame   5.407 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.026 ms | per frame   0.001 ms
+    Update         calls/frame  1.43 | avg   0.769 max   1.073 ms | per frame   1.098 ms
+      Gravity      calls/frame  1.43 | avg   0.008 max   0.033 ms | per frame   0.011 ms
+      PreUpdate    calls/frame  1.43 | avg   0.345 max   0.559 ms | per frame   0.492 ms
+      Physics      calls/frame  1.43 | avg   0.385 max   0.617 ms | per frame   0.549 ms
+      RenderTasks  calls/frame  1.43 | avg   0.030 max   0.081 ms | per frame   0.043 ms
+    Record         calls/frame  1.00 | avg   0.296 max   0.454 ms | per frame   0.296 ms
+    Present        calls/frame  1.00 | avg   0.306 max   0.549 ms | per frame   0.306 ms
+[FrameStats] 140.0 fps | frame avg 7.141 max 13.986 ms | updates/frame avg 1.43 max 3
+    SwapChainWait  calls/frame  1.05 | avg   5.144 max  11.982 ms | per frame   5.400 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.021 ms | per frame   0.001 ms
+    Update         calls/frame  1.43 | avg   0.774 max   1.116 ms | per frame   1.109 ms
+      Gravity      calls/frame  1.43 | avg   0.008 max   0.051 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.43 | avg   0.353 max   0.571 ms | per frame   0.506 ms
+      Physics      calls/frame  1.43 | avg   0.380 max   0.649 ms | per frame   0.545 ms
+      RenderTasks  calls/frame  1.43 | avg   0.031 max   0.085 ms | per frame   0.045 ms
+    Record         calls/frame  1.00 | avg   0.301 max   0.541 ms | per frame   0.301 ms
+    Present        calls/frame  1.00 | avg   0.312 max   0.548 ms | per frame   0.312 ms
+[FrameStats] 137.1 fps | frame avg 7.299 max 14.092 ms | updates/frame avg 1.46 max 3
+    SwapChainWait  calls/frame  1.04 | avg   5.339 max  12.535 ms | per frame   5.532 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.026 ms | per frame   0.001 ms
+    Update         calls/frame  1.46 | avg   0.776 max   1.154 ms | per frame   1.130 ms
+      Gravity      calls/frame  1.46 | avg   0.008 max   0.043 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.46 | avg   0.357 max   0.601 ms | per frame   0.521 ms
+      Physics      calls/frame  1.46 | avg   0.377 max   0.725 ms | per frame   0.549 ms
+      RenderTasks  calls/frame  1.46 | avg   0.032 max   0.092 ms | per frame   0.047 ms
+    Record         calls/frame  1.00 | avg   0.299 max   0.559 ms | per frame   0.299 ms
+    Present        calls/frame  1.00 | avg   0.309 max   0.605 ms | per frame   0.309 ms
+[FrameStats] 135.0 fps | frame avg 7.403 max 14.070 ms | updates/frame avg 1.49 max 3
+    SwapChainWait  calls/frame  1.07 | avg   5.237 max  12.694 ms | per frame   5.622 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.025 ms | per frame   0.001 ms
+    Update         calls/frame  1.49 | avg   0.765 max   1.036 ms | per frame   1.137 ms
+      Gravity      calls/frame  1.49 | avg   0.008 max   0.043 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.49 | avg   0.356 max   0.572 ms | per frame   0.529 ms
+      Physics      calls/frame  1.49 | avg   0.370 max   0.607 ms | per frame   0.549 ms
+      RenderTasks  calls/frame  1.49 | avg   0.030 max   0.079 ms | per frame   0.045 ms
+    Record         calls/frame  1.00 | avg   0.294 max   0.440 ms | per frame   0.294 ms
+    Present        calls/frame  1.00 | avg   0.306 max   0.620 ms | per frame   0.306 ms
+[FrameStats] 139.0 fps | frame avg 7.194 max 14.012 ms | updates/frame avg 1.44 max 3
+    SwapChainWait  calls/frame  1.06 | avg   5.118 max  12.046 ms | per frame   5.449 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.003 ms | per frame   0.001 ms
+    Update         calls/frame  1.44 | avg   0.773 max   1.758 ms | per frame   1.113 ms
+      Gravity      calls/frame  1.44 | avg   0.008 max   0.062 ms | per frame   0.012 ms
+      PreUpdate    calls/frame  1.44 | avg   0.361 max   1.022 ms | per frame   0.519 ms
+      Physics      calls/frame  1.44 | avg   0.372 max   0.726 ms | per frame   0.536 ms
+      RenderTasks  calls/frame  1.44 | avg   0.031 max   0.113 ms | per frame   0.044 ms
+    Record         calls/frame  1.00 | avg   0.293 max   0.457 ms | per frame   0.293 ms
+    Present        calls/frame  1.00 | avg   0.302 max   0.494 ms | per frame   0.302 ms
+[FrameStats] 101.9 fps | frame avg 9.806 max 14.714 ms | updates/frame avg 1.96 max 3
+    SwapChainWait  calls/frame  1.09 | avg   6.987 max  12.647 ms | per frame   7.603 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.011 ms | per frame   0.001 ms
+    Update         calls/frame  1.96 | avg   0.773 max   1.153 ms | per frame   1.516 ms
+      Gravity      calls/frame  1.96 | avg   0.006 max   0.037 ms | per frame   0.013 ms
+      PreUpdate    calls/frame  1.96 | avg   0.359 max   0.630 ms | per frame   0.704 ms
+      Physics      calls/frame  1.96 | avg   0.376 max   0.704 ms | per frame   0.738 ms
+      RenderTasks  calls/frame  1.96 | avg   0.030 max   0.078 ms | per frame   0.059 ms
+    Record         calls/frame  1.00 | avg   0.314 max   0.542 ms | per frame   0.314 ms
+    Present        calls/frame  1.00 | avg   0.338 max   0.514 ms | per frame   0.338 ms
+[FrameStats] 72.0 fps | frame avg 13.890 max 14.115 ms | updates/frame avg 2.78 max 3
+    SwapChainWait  calls/frame  1.00 | avg  11.046 max  11.945 ms | per frame  11.046 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.002 ms | per frame   0.001 ms
+    Update         calls/frame  2.78 | avg   0.765 max   1.144 ms | per frame   2.128 ms
+      Gravity      calls/frame  2.78 | avg   0.006 max   0.076 ms | per frame   0.016 ms
+      PreUpdate    calls/frame  2.78 | avg   0.361 max   0.607 ms | per frame   1.004 ms
+      Physics      calls/frame  2.78 | avg   0.367 max   0.613 ms | per frame   1.022 ms
+      RenderTasks  calls/frame  2.78 | avg   0.030 max   0.233 ms | per frame   0.083 ms
+    Record         calls/frame  1.00 | avg   0.333 max   0.500 ms | per frame   0.333 ms
+    Present        calls/frame  1.00 | avg   0.362 max   0.629 ms | per frame   0.362 ms
+[FrameStats] 72.1 fps | frame avg 13.887 max 14.088 ms | updates/frame avg 2.77 max 3
+    SwapChainWait  calls/frame  1.03 | avg  10.737 max  12.013 ms | per frame  11.031 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.007 ms | per frame   0.001 ms
+    Update         calls/frame  2.77 | avg   0.775 max   1.391 ms | per frame   2.143 ms
+      Gravity      calls/frame  2.77 | avg   0.006 max   0.029 ms | per frame   0.016 ms
+      PreUpdate    calls/frame  2.77 | avg   0.362 max   0.858 ms | per frame   1.001 ms
+      Physics      calls/frame  2.77 | avg   0.376 max   0.712 ms | per frame   1.042 ms
+      RenderTasks  calls/frame  2.77 | avg   0.029 max   0.087 ms | per frame   0.081 ms
+    Record         calls/frame  1.00 | avg   0.325 max   0.495 ms | per frame   0.325 ms
+    Present        calls/frame  1.00 | avg   0.350 max   0.649 ms | per frame   0.350 ms
+[FrameStats] 72.0 fps | frame avg 13.892 max 14.227 ms | updates/frame avg 2.78 max 3
+    SwapChainWait  calls/frame  1.00 | avg  11.075 max  12.036 ms | per frame  11.075 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.009 ms | per frame   0.001 ms
+    Update         calls/frame  2.78 | avg   0.759 max   1.167 ms | per frame   2.107 ms
+      Gravity      calls/frame  2.78 | avg   0.006 max   0.054 ms | per frame   0.016 ms
+      PreUpdate    calls/frame  2.78 | avg   0.348 max   0.554 ms | per frame   0.967 ms
+      Physics      calls/frame  2.78 | avg   0.374 max   0.737 ms | per frame   1.038 ms
+      RenderTasks  calls/frame  2.78 | avg   0.029 max   0.069 ms | per frame   0.080 ms
+    Record         calls/frame  1.00 | avg   0.323 max   0.485 ms | per frame   0.323 ms
+    Present        calls/frame  1.00 | avg   0.365 max   0.642 ms | per frame   0.365 ms
+[FrameStats] 72.0 fps | frame avg 13.887 max 14.154 ms | updates/frame avg 2.78 max 3
+    SwapChainWait  calls/frame  1.21 | avg   9.134 max  12.108 ms | per frame  11.037 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.020 ms | per frame   0.001 ms
+    Update         calls/frame  2.78 | avg   0.759 max   1.189 ms | per frame   2.108 ms
+      Gravity      calls/frame  2.78 | avg   0.005 max   0.029 ms | per frame   0.015 ms
+      PreUpdate    calls/frame  2.78 | avg   0.358 max   0.633 ms | per frame   0.995 ms
+      Physics      calls/frame  2.78 | avg   0.360 max   0.705 ms | per frame   0.999 ms
+      RenderTasks  calls/frame  2.78 | avg   0.034 max   0.272 ms | per frame   0.094 ms
+    Record         calls/frame  1.00 | avg   0.325 max   0.450 ms | per frame   0.325 ms
+    Present        calls/frame  1.00 | avg   0.377 max   0.629 ms | per frame   0.377 ms
+[FrameStats] 72.0 fps | frame avg 13.890 max 14.163 ms | updates/frame avg 2.78 max 3
+    SwapChainWait  calls/frame  1.60 | avg   6.829 max  11.676 ms | per frame  10.907 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.005 ms | per frame   0.001 ms
+    Update         calls/frame  2.78 | avg   0.785 max   1.632 ms | per frame   2.182 ms
+      Gravity      calls/frame  2.78 | avg   0.006 max   0.041 ms | per frame   0.015 ms
+      PreUpdate    calls/frame  2.78 | avg   0.372 max   1.032 ms | per frame   1.033 ms
+      Physics      calls/frame  2.78 | avg   0.374 max   1.205 ms | per frame   1.040 ms
+      RenderTasks  calls/frame  2.78 | avg   0.032 max   0.359 ms | per frame   0.089 ms
+    Record         calls/frame  1.00 | avg   0.329 max   0.500 ms | per frame   0.329 ms
+    Present        calls/frame  1.00 | avg   0.399 max   0.951 ms | per frame   0.399 ms
+[FrameStats] 71.9 fps | frame avg 13.891 max 14.146 ms | updates/frame avg 2.78 max 3
+    SwapChainWait  calls/frame  1.64 | avg   6.660 max  12.107 ms | per frame  10.949 ms
+    FenceWait      calls/frame  1.00 | avg   0.001 max   0.012 ms | per frame   0.001 ms
+    Update         calls/frame  2.78 | avg   0.773 max   1.513 ms | per frame   2.151 ms
+      Gravity      calls/frame  2.78 | avg   0.005 max   0.026 ms | per frame   0.015 ms
+      PreUpdate    calls/frame  2.78 | avg   0.362 max   1.032 ms | per frame   1.007 ms
+      Physics      calls/frame  2.78 | avg   0.372 max   0.968 ms | per frame   1.036 ms
+      RenderTasks  calls/frame  2.78 | avg   0.032 max   0.410 ms | per frame   0.088 ms
+    Record         calls/frame  1.00 | avg   0.332 max   0.516 ms | per frame   0.332 ms
+    Present        calls/frame  1.00 | avg   0.388 max   0.590 ms | per frame   0.388 ms

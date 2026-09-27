@@ -29,17 +29,43 @@ The game engine currently includes the following features:
 - Minimal input control handling (keyboard/gamepad)
 - Some instrumentation of the code to allow profiling of the application using PIX
 - A scene manager
+- A custom thread pool implementation with no contention
 - **Using data driven approach to perform rendering**
 
 ## Dev log
 
-### The physics engine saga: data-driven rewrite, months of collision bugs, and finally some parallelism (September 10 2026)
+### Version 0.34 (September 27th 2026)
+
+This is a major version to me, because I finally managed to implement ladder for the engine!
+
+Other major changes since previous tag:
+
+- Physics engine rewritten for the data-driven architecture, with a parallel broad phase and the long-standing collision bug finally fixed.
+- Gameplay restored on the new engine: scrolling, jumping, shooting, death, NeoMettool, Telly, shields, music and sound effects.
+- Animation system redesigned: one shared clock plus independent playback per object.
+- HLSL shaders compiled at runtime instead of at build time.
+- Frame pacing on the hardware vblank (vsync, frame latency waitable object).
+- Gamepad support alongside the keyboard restored from the POC.
+
+![v0.34](Assets/Images/v0.34.png)
+
+I plan to implement this in the next version:
+
+- Megaman is going to take damages!
+- HUD rendering
+- Enemy generator
+- Level verticality
+- New demo level, based on Top man
+- Boss zone
+  - With my first boss implementation: heat man
+
+### The physics engine saga: months of collision bugs (September 10 2026)
 
 Back in April, I finally got around to porting the physics engine to the new data-driven architecture, reusing the sparse sets and thread pool I had already built for the rest of the engine.
 
-Then came months of chasing a very persistent overlap/collision bug involving a poor little enemy named "NeoMettool" who refused to collide correctly no matter what I tried :sob:.
+Then came months of chasing a very persistent overlap/collision bug involving a sprite who refused to collide correctly no matter what I tried... :sob:.
 
-I went through several rounds of debugging sessions, added `natvis` visualizers to inspect the engine state directly from the debugger, and even temporarily restored the collision box wireframe rendering pass just to *see* what was going on. I will not summarize every single debugging session here, but things went quiet for a couple of months after that.
+I went through several rounds of debugging sessions, added `natvis` visualizers to inspect the engine state directly from the debugger, and even temporarily restored the collision box wireframe rendering pass just to *see* what was going on.
 
 I picked it back up in September, and this time asked Claude Code to review my `MegaNTree` quadtree implementation and propose fixes, along with new tests to validate them (I reviewed and validated everything myself before keeping it).
 
@@ -297,7 +323,7 @@ Also fixed a lot of bugs related to the physics engine.
 - We now perform the culling using the main scene quadtree object
 - We can now dynamically add objects to the scene (in the limit of SRV buffer slots available :D)
 - The engine now perform batch rendering of objects sharing the same geometry
-    - Take a look [here (in french...)](Notes/BatchRendering.md) for more information about the way I refactored the code
+    - Take a look [here (in french...)](Notes/Research/BatchRendering.md) for more information about the way I refactored the code
 - Restored wireframe rendering
 - Restored the back layer rendering
 - Restored MegaSpriteEx rendering using the new batch rendering system
