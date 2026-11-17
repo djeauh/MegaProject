@@ -34,6 +34,29 @@ The game engine currently includes the following features:
 
 ## Dev log
 
+### Version 0.35 (November 17th 2026)
+
+The stage select menu is alive! Megaman looks toward the cursor, robot master faces are displayed, and selecting Heatman loads the Heatman demo stage, with a new transition effect between the two scenes. The whole menu is described in a json file I can maintain by myself.
+
+Other major changes since previous tag:
+
+- Big code cleanup: removed the "Mega" prefix everywhere, replaced SDK types, SAL annotations and my own math wrappers with standard C++ and DirectX SimpleMath, and aligned function parameters across the code base. I made these changes using Claude AI.
+- Resources split by domain, a scene can now load several resource files.
+- Shaders are only compiled when needed, from a single place in the engine.
+- Megaman's bullet now comes out of his buster, using anchor points declared in AseSprite.
+- Shooting while running no longer restarts the running animation.
+- Megaman can shoot left or right while climbing a ladder.
+- Megaman's color change is back (weapon palettes), with a smooth transition between colors.
+- Gamepad and scene switching bug fixes.
+- Code documentation updated with the help of Claude.
+- First steps of a bitmap font: "HELLO WORLD" is on the screen, but I'm not happy with the rendering yet.
+
+![v0.35 stage select](Assets/Images/v0.35_stage_select.png)
+
+![v0.35 megaman ladder](Assets/Images/v0.35_ladder.png)
+
+Next step: finish the text rendering, then get back to the plan of the previous version.
+
 ### Version 0.34 (September 27th 2026)
 
 This is a major version to me, because I finally managed to implement ladder for the engine!
@@ -69,7 +92,7 @@ I went through several rounds of debugging sessions, added `natvis` visualizers 
 
 I picked it back up in September, and this time asked Claude Code to review my `MegaNTree` quadtree implementation and propose fixes, along with new tests to validate them (I reviewed and validated everything myself before keeping it).
 
-I also lead claude in order to validate and test an idea I got to improve parallelism in my physics engine stage, using my thread pool implementation. Here is an example of how I build the task graph using my objects:
+I also lead Claude in order to validate and test an idea I got to improve parallelism in my physics engine stage, using my thread pool implementation. Here is an example of how I build the task graph using my objects:
 
 ```cpp
 
