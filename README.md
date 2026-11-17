@@ -51,9 +51,9 @@ Other major changes since previous tag:
 - Code documentation updated with the help of Claude.
 - First steps of a bitmap font: "HELLO WORLD" is on the screen, but I'm not happy with the rendering yet.
 
-![v0.35 stage select](Assets/Images/v0.35_stage_select.png)
+![v0.35 stage select 1](Assets/Images/v0.35_stage_select1.png)
 
-![v0.35 megaman ladder](Assets/Images/v0.35_ladder.png)
+![v0.35 stage select 2](Assets/Images/v0.35_stage_select2.png)
 
 Next step: finish the text rendering, then get back to the plan of the previous version.
 
